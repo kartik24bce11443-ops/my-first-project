@@ -117,6 +117,17 @@ Screenshot: See screenshots/eclipse-setup.png and screenshots/eclipse-run.png.
 
 
 Run Program:
-Use the
+Use the  the Run button or F11 to execute.
+View CLI menu in Console view.
 
+Enabling Assertions
 
+Assertions are used to enforce invariants (e.g., non-null IDs, valid credits). To enable:
+java -ea -cp bin edu.ccrm.cli.CCRMMain
+
+Snapshots - 
+screenshots/java-version.png: JDK installation verification.
+screenshots/eclipse-setup.png: Eclipse project setup.
+screenshots/eclipse-run.png: Running CCRM in Eclipse.
+screenshots/cli-menu.png: CLI menu and operations.
+screenshots/backup-folder.png: Timestamped backup folder structure.
